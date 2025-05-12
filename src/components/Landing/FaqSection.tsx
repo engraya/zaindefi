@@ -12,14 +12,16 @@ function FaqSection() {
   return (
     <div
       data-property-1="Frame 54"
-      className="w-full px-5 py-4 bg-zinc-950 rounded-lg flex flex-col justify-start items-start gap-2.5"
+      onClick={handleToggleAnswer}
+      className="w-full px-5 py-4 bg-zinc-950 rounded-lg cursor-pointer flex flex-col justify-start items-start gap-2.5"
     >
-      <div className="inline-flex justify-start items-center gap-5 sm:gap-32">
+      <div 
+      className="inline-flex justify-start cursor-pointer items-center gap-5 sm:gap-32"
+      >
         <div className="w-full sm:w-96 text-indigo-50 text-sm whitespace-nowrap sm:text-xl font-medium leading-7">
           Why is Webflow the best no-code tool?
         </div>
         <svg
-          onClick={handleToggleAnswer}
           xmlns="http://www.w3.org/2000/svg"
           width="36"
           height="36"

@@ -35,53 +35,9 @@ function StartedCard({ number, title, description }: StartedCardProps) {
                         </div>
                         <div className="w-72 justify-start text-zinc-400 text-base font-normal leading-snug">{description}</div>
                     </div>
-                    <button data-show-label="true" data-show-left-icon="false" data-show-right-icon="false" data-size="Small" data-state="Enabled" data-type="FIlled" className="px-4 py-2 bg-indigo-700 rounded text-white inline-flex justify-center items-center overflow-hidden">
-                        <div className="h-4 flex justify-center items-center gap-2">
-                            <p className="justify-start text-White text-xs font-normal leading-tight">Connect Wallet</p>
-                        </div>
+                    <button className="px-4 py-2 bg-indigo-700 rounded cursor-pointer text-white inline-flex justify-center items-center overflow-hidden">
+                        <p className="justify-start text-White text-xs font-normal leading-tight">Connect Wallet</p>
                     </button>
-                </div>
-            </div>
-            <div className="self-stretch relative inline-flex flex-col justify-start items-start">
-                <div data-property-1="default" className="w-16 h-16 relative opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-                <div data-property-1="default" className="w-16 h-16 relative opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-                <div data-property-1="default" className="w-16 h-16 relative opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-                <div data-property-1="default" className="w-16 h-16 left-0 top-[190.50px] absolute opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-            </div>
-            <div className="self-stretch relative inline-flex flex-col justify-start items-start">
-                <div data-property-1="default" className="w-16 h-16 relative opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-                <div data-property-1="default" className="w-16 h-16 relative opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-                <div data-property-1="default" className="w-16 h-16 relative opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-                <div data-property-1="default" className="w-16 h-16 left-0 top-[190.50px] absolute opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-            </div>
-            <div className="self-stretch relative inline-flex flex-col justify-start items-start">
-                <div data-property-1="default" className="w-16 h-16 relative opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-                <div data-property-1="default" className="w-16 h-16 relative opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-                <div data-property-1="default" className="w-16 h-16 relative opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
-                </div>
-                <div data-property-1="default" className="w-16 h-16 left-0 top-[190.50px] absolute opacity-0 bg-gray-900">
-                    <div className="w-16 h-16 left-0 top-0 absolute opacity-50 rounded-[31.75px] blur-[9.58px]" />
                 </div>
             </div>
         </div>
