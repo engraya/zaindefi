@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { landingImage } from "../../assets"
 
 function Welcome() {
@@ -15,16 +16,21 @@ function Welcome() {
           </p>
         </div>
         <div className="w-full flex flex-col sm:flex-row justify-start items-center gap-5">
+          <Link to="/market-place">   
           <button className="px-11 py-4 rounded outline outline-offset-[-1px] outline-indigo-400 cursor-pointer inline-flex justify-center items-center overflow-hidden">
             <div className="h-5 flex justify-center items-center gap-2">
               <p className="justify-center text-indigo-400 text-base font-normal">Get Started</p>
             </div>
           </button>
+          </Link>
+
+          <Link to="/market-place">
           <button className="px-11 py-4 bg-indigo-500 rounded inline-flex justify-center cursor-pointer items-center overflow-hidden">
             <div className="h-5 flex justify-center items-center gap-2">
               <p className="justify-center text-indigo-50 text-base font-normal">Connect Wallet</p>
             </div>
           </button>
+          </Link>
         </div>
       </div>
       <div className="relative w-full lg:w-auto">
