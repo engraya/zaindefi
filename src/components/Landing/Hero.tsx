@@ -4,7 +4,7 @@ import Stats from "./Stats"
 import Welcome from "./Welcome"
 function Hero() {
   return (
-    <section className="w-full px-8">
+    <section className="w-full px-8 pt-20 sm:pt-10">
       <Welcome/>
       <Stats/>
       <div className="hidden lg:flex lg:justify-center lg:items-center lg:gap-2.5">
