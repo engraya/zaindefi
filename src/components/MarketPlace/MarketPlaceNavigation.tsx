@@ -29,7 +29,7 @@ function MarketPlaceNavigation() {
     }, []);
 
   return (
-    <div className="w-full px-4 md:px-8 pt-5 pb-3 bg-[#242538] border-b border-slate-600 flex flex-wrap justify-between items-center gap-4">
+    <nav className="fixed w-full px-4 md:px-8 pt-5 pb-3 bg-[#242538] border-b border-slate-600 flex flex-wrap justify-between items-center gap-4">
       {/* Logo */}
       <AppLogo />
 
@@ -100,7 +100,7 @@ function MarketPlaceNavigation() {
         )}
       </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

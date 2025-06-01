@@ -3,7 +3,7 @@ import OverviewContainer from '../components/MarketPlace/OverviewContainer'
 import OverviewSection from '../components/MarketPlace/OverviewSection'
 function MarketPlace() {
   return (
-    <div className="flex flex-col w-full h-full gap-4">
+    <div className="flex flex-col w-full h-full gap-4 pt-16">
       <OverviewContainer/>
       <StatsContainer/>
       <OverviewSection/>

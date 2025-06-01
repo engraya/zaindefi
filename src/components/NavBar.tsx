@@ -34,7 +34,7 @@ function NavBar() {
   }, []);
 
   return (
-    <nav className="py-2.5 px-4 sm:px-6 lg:px-28 bg-gray-900">
+  <nav className="fixed top-0 left-0 w-full z-50 py-2.5 px-4 sm:px-6 lg:px-28 bg-gray-900">
       <div className="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between">
         {/* Logo */}
         <AppLogo/>
