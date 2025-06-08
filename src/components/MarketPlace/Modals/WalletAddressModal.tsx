@@ -1,4 +1,4 @@
-import { LogoutSvg, PlusIcon, WalletSvg } from "../../Icons"
+import { LogoutSvg, PlusIcon, WalletSvg } from "../../../Icons/Icons"
 function WalletAddressModal() {
   return (
     <div className="absolute top-full mt-2 right-0 w-64 px-2 py-4 bg-gray-900 rounded-xl outline outline-offset-[-1px] outline-[#8689AA] inline-flex flex-col justify-start items-start gap-2.5">

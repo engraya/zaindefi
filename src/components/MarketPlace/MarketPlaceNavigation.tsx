@@ -5,7 +5,7 @@ import {
   DropDownIcon,
   NotificationBellIcon,
   SearchIcon,
-} from '../Icons';
+} from '../../Icons/Icons';
 import WalletAddressModal from './Modals/WalletAddressModal';
 
 function MarketPlaceNavigation() {
@@ -29,7 +29,7 @@ function MarketPlaceNavigation() {
     }, []);
 
   return (
-    <nav className="fixed w-full px-4 md:px-8 pt-5 pb-3 bg-[#242538] border-b border-slate-600 flex flex-wrap justify-between items-center gap-4">
+<nav className="fixed w-full px-4 md:px-8 pt-5 pb-3 bg-[#242538] bg-opacity-100 border-b border-slate-600 flex flex-wrap justify-between items-center gap-4 z-50">
       {/* Logo */}
       <AppLogo />
 

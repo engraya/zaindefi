@@ -1,4 +1,4 @@
-import { RefreshSvg } from "../Icons"
+import { RefreshSvg } from "../../Icons/Icons"
 import { useState } from "react";
 function SelectionSection() {
     const [selectedCurrency, setSelectedCurrency] = useState<string>('NGN')

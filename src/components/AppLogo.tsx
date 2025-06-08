@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { LogoIcon, LogoText } from './Icons';
+import { LogoIcon, LogoText } from '../Icons/Icons';
 function AppLogo() {
   return (
     <Link to="/" className="flex items-center gap-2">

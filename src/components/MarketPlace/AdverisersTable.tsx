@@ -1,4 +1,4 @@
-import { ThumbSvg } from "../Icons";
+import { ThumbSvg } from "../../Icons/Icons";
 function AdvertisersTable( { selectedAction } : { selectedAction: 'buy' | 'sell' }) {
     return (
       <div className="w-full overflow-x-auto">
