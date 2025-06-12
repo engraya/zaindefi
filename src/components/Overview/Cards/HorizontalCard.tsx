@@ -1,4 +1,7 @@
+import { useNavigate } from 'react-router-dom';
+
 type HorizontalCardProps = {
+  id: string;
   image: string;
   title: string;
   price: string;
@@ -9,13 +12,20 @@ type HorizontalCardProps = {
   buttonLabel: string;
 };
 
-function HorizontalCard({ image, title, price, details, buttonLabel }: HorizontalCardProps) {
+function HorizontalCard({ id, image, title, price, details, buttonLabel }: HorizontalCardProps) {
+  const navigate = useNavigate();
+
+  const handleCardClick = () => {
+    navigate(`/market-place/card/${id}`);
+  };
+
   return (
     <div
+      onClick={handleCardClick}
       data-device="Desktop"
       data-type="Buy"
       data-view="List"
-      className="self-stretch bg-gray-900 rounded-xl outline outline-slate-600 flex flex-col md:flex-row justify-start items-stretch gap-4 md:gap-6"
+      className="self-stretch bg-gray-900 rounded-xl outline outline-slate-600 flex flex-col md:flex-row justify-start items-stretch gap-4 md:gap-6 cursor-pointer hover:outline-emerald-500 transition-all"
     >
       {/* Image at the top on mobile, left on desktop */}
       <div className="w-full md:w-80 h-48 md:h-64 rounded-t-xl md:rounded-tl-xl md:rounded-bl-xl flex justify-center items-center overflow-hidden">

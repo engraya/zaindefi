@@ -6,6 +6,8 @@ import MarketPlace from './pages/MarketPlace';
 import Overview from './pages/Overview';
 import NotFound from './pages/NotFound/NotFound';
 import Wallet from './pages/Wallet/Wallet';
+import CardDetails from './pages/CardDetails';
+import Completed from './pages/Completed/Completed';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route index element={<MarketPlace />} />
           <Route path="overview" element={<Overview />} />
           <Route path="wallet" element={<Wallet />} />
+          <Route path="completed" element={<Completed />} />
+          <Route path="card/:id" element={<CardDetails />} />
           <Route path="*" element={<NotFound />} /> 
         </Route>
         <Route path="*" element={<NotFound />} /> 

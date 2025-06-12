@@ -2,6 +2,7 @@ import { palladuim, platinum, silcere, chateau, diamond, eagle, gold, inverted, 
 
 export const trendingCardsData = [
   {
+    id: "gold-100g",
     image: gold,
     title: "Gold – 100g",
     price: "$6,480.00",
@@ -14,6 +15,7 @@ export const trendingCardsData = [
     buttonLabel: "Buy",
   },
   {
+    id: "silver-eagles",
     image: silcere,
     title: "Silvere American Eagles",
     price: "$720.00",
@@ -26,6 +28,7 @@ export const trendingCardsData = [
     buttonLabel: "Buy",
   },
   {
+    id: "platinum-50g",
     image: platinum,
     title: "Platinum - 50g",
     price: "$1,850.00",
@@ -38,6 +41,7 @@ export const trendingCardsData = [
     buttonLabel: "Buy",
   },
   {
+    id: "double-eagle-1933",
     image: eagle,
     title: "1933 Double Eagle",
     price: "$18,750.00",
@@ -50,6 +54,7 @@ export const trendingCardsData = [
     buttonLabel: "Buy",
   },
   {
+    id: "diamond-2ct",
     image: diamond,
     title: "Diamond - 2 Carat",
     price: "$32,400.00",
@@ -62,6 +67,7 @@ export const trendingCardsData = [
     buttonLabel: "Buy",
   },
   {
+    id: "vintage-patek",
     image: vintage,
     title: "Vintage Patek Philippe",
     price: "$22,500",
@@ -74,6 +80,7 @@ export const trendingCardsData = [
     buttonLabel: "Buy",
   },
   {
+    id: "inverted-jenny",
     image: inverted,
     title: "Inverted Jenny Stamp",
     price: "$6,480.00",
@@ -86,6 +93,7 @@ export const trendingCardsData = [
     buttonLabel: "Buy",
   },
   {
+    id: "palladium-bars",
     image: palladuim,
     title: "Palladium - 1 oz Bars (5)",
     price: "$6,480.00",
@@ -98,6 +106,7 @@ export const trendingCardsData = [
     buttonLabel: "Buy",
   },
   {
+    id: "chateau-1945",
     image: chateau,
     title: "1945 Château Mouton Rothschild",
     price: "$6,480.00",

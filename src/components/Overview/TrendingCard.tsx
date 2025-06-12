@@ -1,4 +1,7 @@
+import { useNavigate } from 'react-router-dom';
+
 type TrendingCardProps = {
+  id: string;
   image: string;
   title: string;
   price: string;
@@ -9,9 +12,18 @@ type TrendingCardProps = {
   buttonLabel: string;
 };
 
-function TrendingCard({ image, title, price, details, buttonLabel }: TrendingCardProps) {
+function TrendingCard({ id, image, title, price, details, buttonLabel }: TrendingCardProps) {
+  const navigate = useNavigate();
+
+  const handleCardClick = () => {
+    navigate(`/market-place/card/${id}`);
+  };
+
   return (
-    <div className="flex-1 pb-6 sm:pb-10 bg-gray-900 rounded-xl outline outline-slate-600 flex flex-col justify-start items-start gap-4 sm:gap-6">
+    <div 
+      onClick={handleCardClick}
+      className="flex-1 pb-6 sm:pb-10 bg-gray-900 rounded-xl outline outline-slate-600 flex flex-col justify-start items-start gap-4 sm:gap-6 cursor-pointer hover:outline-emerald-500 transition-all"
+    >
       <div className="w-full h-40 sm:h-60 rounded-tl-xl rounded-tr-xl flex justify-between items-center overflow-hidden">
         <img
           className="w-full h-full object-cover rounded-tl-lg rounded-tr-lg"
