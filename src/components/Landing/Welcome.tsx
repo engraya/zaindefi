@@ -24,7 +24,7 @@ function Welcome() {
           </button>
           </Link>
 
-          <Link to="/market-place">
+          <Link to="/wallet">
           <button className="px-11 py-4 bg-indigo-500 rounded inline-flex justify-center cursor-pointer items-center overflow-hidden">
             <div className="h-5 flex justify-center items-center gap-2">
               <p className="justify-center text-indigo-50 text-base font-normal">Connect Wallet</p>
