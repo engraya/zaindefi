@@ -78,7 +78,7 @@ function NavBar() {
           </div>
 
           {/* Connect Wallet Button */}
-          <Link to="/market-place">
+          <Link to="/wallet">
             <button className="px-4 py-2 cursor-pointer bg-indigo-500 rounded text-xs text-white hidden sm:inline-flex">
               Connect Wallet
             </button>
